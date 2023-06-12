@@ -1,8 +1,4 @@
-
-
-
 function App() {
-  
   return (
     <>
       {/* ======= Header ======= */}
@@ -45,8 +41,6 @@ function App() {
       {/* End Header */}
       {/* ======= Hero Section ======= */}
 
-
-   
       <section id="hero" className="hero">
         <div className="info d-flex align-items-center">
           <div className="container">
@@ -159,10 +153,7 @@ function App() {
                     <i className="bi bi-house-fill flex-shrink-0" />
                     <div>
                       <h4>
-                        <a className="stretched-link">
-                          {" "}
-                          Residence Visa
-                        </a>
+                        <a className="stretched-link"> Residence Visa</a>
                       </h4>
                       <p>
                         Obtain a legal residence visa in the UAE, allowing you
@@ -181,9 +172,7 @@ function App() {
                     <i className="bi bi-briefcase-fill flex-shrink-0" />
                     <div>
                       <h4>
-                        <a className="stretched-link">
-                          Work Permit
-                        </a>
+                        <a className="stretched-link">Work Permit</a>
                       </h4>
                       <p>
                         Gain a work permit that authorizes you to engage in
@@ -202,10 +191,7 @@ function App() {
                     <i className="bi bi-person-badge-fill flex-shrink-0" />
                     <div>
                       <h4>
-                        <a className="stretched-link">
-                          {" "}
-                          Emirates ID
-                        </a>
+                        <a className="stretched-link"> Emirates ID</a>
                       </h4>
                       <p>
                         Obtain an Emirates ID, a mandatory identification card
@@ -224,9 +210,7 @@ function App() {
                     <i className="bi bi-heart-fill flex-shrink-0" />
                     <div>
                       <h4>
-                        <a  className="stretched-link">
-                          UAE Medical Insurance
-                        </a>
+                        <a className="stretched-link">UAE Medical Insurance</a>
                       </h4>
                       <p>
                         Enjoy the benefits of UAE medical insurance, which
@@ -246,7 +230,7 @@ function App() {
                     <i className="bi bi-credit-card-fill flex-shrink-0" />
                     <div>
                       <h4>
-                        <a  className="stretched-link">
+                        <a className="stretched-link">
                           Support to open a Bank Account
                         </a>
                       </h4>
@@ -267,10 +251,7 @@ function App() {
                     <i className="bi bi-check2-all flex-shrink-0" />
                     <div>
                       <h4>
-                        <a  className="stretched-link">
-                          {" "}
-                          Unlimited NOC’s
-                        </a>
+                        <a className="stretched-link"> Unlimited NOC’s</a>
                       </h4>
                       <p>
                         Benefit from unlimited No Objection Certificates (NOCs)
@@ -289,10 +270,7 @@ function App() {
                     <i className="bi bi-wallet2 flex-shrink-0" />
                     <div>
                       <h4>
-                        <a className="stretched-link">
-                          {" "}
-                          Invoicing Support
-                        </a>
+                        <a className="stretched-link"> Invoicing Support</a>
                       </h4>
                       <p>
                         Access invoicing support services that simplify the
@@ -312,9 +290,7 @@ function App() {
                     <i className="bi bi-file-earmark-text flex-shrink-0" />
                     <div>
                       <h4>
-                        <a  className="stretched-link">
-                          Salary Certificate
-                        </a>
+                        <a className="stretched-link">Salary Certificate</a>
                       </h4>
                       <p>
                         Obtain a salary certificate as proof of your income,
@@ -351,7 +327,7 @@ function App() {
               >
                 <div className="service-item position-relative">
                   <div className="icon">
-                  <i className="fas fa-comments"></i>
+                    <i className="fas fa-comments"></i>
                   </div>
                   <h3>Get in Touch</h3>
                   <p>
@@ -360,12 +336,9 @@ function App() {
                     qualifications, discuss requirements, and answer any
                     questions you may have.
                   </p>
-                  <a
-                    href="service-details.html"
-                    className="readmore stretched-link"
-                  >
+                  {/* <a className="readmore stretched-link">
                     Learn more <i className="bi bi-arrow-right" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* End Service Item */}
@@ -383,12 +356,9 @@ function App() {
                     Upload the necessary documents, such as your passport copy
                     and identification, to support your application.
                   </p>
-                  <a
-                    href="service-details.html"
-                    className="readmore stretched-link"
-                  >
+                  {/* <a className="readmore stretched-link">
                     Learn more <i className="bi bi-arrow-right" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* End Service Item */}
@@ -399,20 +369,16 @@ function App() {
               >
                 <div className="service-item position-relative">
                   <div className="icon">
-                  <i className="fas fa-paper-plane"></i>
-
+                    <i className="fas fa-paper-plane"></i>
                   </div>
                   <h3>Application Submission:</h3>
                   <p>
                     Our expert team thoroughly reviews your application to
                     ensure accuracy and completeness.
                   </p>
-                  <a
-                    href="service-details.html"
-                    className="readmore stretched-link"
-                  >
+                  {/* <a className="readmore stretched-link">
                     Learn more <i className="bi bi-arrow-right" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* End Service Item */}
@@ -430,12 +396,9 @@ function App() {
                     Sit back and relax as we handle the visa processing on your
                     behalf, keeping you updated throughout the process.
                   </p>
-                  <a
-                    href="service-details.html"
-                    className="readmore stretched-link"
-                  >
+                  {/* <a className="readmore stretched-link">
                     Learn more <i className="bi bi-arrow-right" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* End Service Item */}
@@ -453,12 +416,9 @@ function App() {
                     Once approved, we notify you promptly, confirming that your
                     freelance visa is ready for collection.
                   </p>
-                  <a
-                    href="service-details.html"
-                    className="readmore stretched-link"
-                  >
+                  {/* <a className="readmore stretched-link">
                     Learn more <i className="bi bi-arrow-right" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* End Service Item */}
@@ -469,20 +429,16 @@ function App() {
               >
                 <div className="service-item position-relative">
                   <div className="icon">
-                  <i className="fas fa-handshake"></i>
-
+                    <i className="fas fa-handshake"></i>
                   </div>
                   <h3>Post-Visa Support</h3>
                   <p>
                     Visit our convenient location to collect your freelance visa
                     and embark on your journey to success.
                   </p>
-                  <a
-                    href="service-details.html"
-                    className="readmore stretched-link"
-                  >
+                  {/* <a className="readmore stretched-link">
                     Learn more <i className="bi bi-arrow-right" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* End Service Item */}
@@ -705,8 +661,6 @@ function App() {
               </div>
               <div className="swiper-pagination" />
             </div>
-
-          
           </div>
         </section>
         {/* End Testimonials Section */}
@@ -746,7 +700,6 @@ function App() {
                         name="name"
                         className="form-control"
                         placeholder="Name"
-              
                       />
                     </div>
                     <div className="col-md-12">
@@ -755,7 +708,6 @@ function App() {
                         className="form-control"
                         name="email"
                         placeholder="Email"
-                 
                       />
                     </div>
                     <div className="col-md-12">
@@ -764,7 +716,6 @@ function App() {
                         className="form-control"
                         name="phone"
                         placeholder="Phone"
-                  
                       />
                     </div>
                     <div className="col-md-12">
@@ -773,7 +724,6 @@ function App() {
                         className="form-control"
                         name="nationality"
                         placeholder="Nationality"
-                 
                       />
                     </div>
                     <div className="col-md-12">
@@ -782,7 +732,6 @@ function App() {
                         name="message"
                         rows={6}
                         placeholder="Do you have any questions"
-            
                         defaultValue={""}
                       />
                     </div>
