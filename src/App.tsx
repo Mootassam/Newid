@@ -684,8 +684,6 @@ function App() {
               </div>
               <div className="col-lg-5" data-aos="fade">
                 <form
-                  action="forms/quote.php"
-                  method="post"
                   className="php-email-form section-bg"
                 >
                   <h3>Contact Form</h3>
@@ -741,6 +739,10 @@ function App() {
                       <div className="sent-message">
                         Your quote request has been sent successfully. Thank
                         you!
+                      </div>
+
+                      <div className="error-message">
+                      Form submission failed and no error message returned from
                       </div>
                       <button type="submit">Submit</button>
                     </div>
