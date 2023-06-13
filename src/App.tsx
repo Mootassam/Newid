@@ -1,3 +1,5 @@
+import Contact from "./components/Contact";
+
 function App() {
   return (
     <>
@@ -682,73 +684,7 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-5" data-aos="fade">
-                <form
-                  className="php-email-form section-bg"
-                >
-                  <h3>Contact Form</h3>
-                  <p>
-                    Feel free to reach out to us with any questions or
-                    inquiries. We're here to assist you every step of the way.
-                  </p>
-                  <div className="row gy-3 section-bg">
-                    <div className="col-md-12">
-                      <input
-                        type="text"
-                        name="name"
-                        className="form-control"
-                        placeholder="Name"
-                      />
-                    </div>
-                    <div className="col-md-12">
-                      <input
-                        type="email"
-                        className="form-control"
-                        name="email"
-                        placeholder="Email"
-                      />
-                    </div>
-                    <div className="col-md-12">
-                      <input
-                        type="text"
-                        className="form-control"
-                        name="phone"
-                        placeholder="Phone"
-                      />
-                    </div>
-                    <div className="col-md-12">
-                      <input
-                        type="text"
-                        className="form-control"
-                        name="nationality"
-                        placeholder="Nationality"
-                      />
-                    </div>
-                    <div className="col-md-12">
-                      <textarea
-                        className="form-control"
-                        name="message"
-                        rows={6}
-                        placeholder="Do you have any questions"
-                        defaultValue={""}
-                      />
-                    </div>
-                    <div className="col-md-12 text-center">
-                      <div className="loading">Loading</div>
-                      <div className="error-message" />
-                      <div className="sent-message">
-                        Your quote request has been sent successfully. Thank
-                        you!
-                      </div>
-
-                      <div className="error-message">
-                      Form submission failed and no error message returned from
-                      </div>
-                      <button type="submit">Submit</button>
-                    </div>
-                  </div>
-                </form>
-              </div>
+        <Contact />
               {/* End Quote Form */}
             </div>
           </div>
